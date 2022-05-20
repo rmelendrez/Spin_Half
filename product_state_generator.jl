@@ -30,7 +30,7 @@ module Prod_State_Gen_Mod
 			dim = Int64(2*spin+1)^sites
 			# Initializes Many Body column vector
 			manybodystate= zeros(ComplexF64,dim)
-			println("dim = ", dim)	
+
 			for (i,elem) in enumerate(manybodystate)
 				manybodystate[i] = 1.0+ 0.0*im
 			end			
