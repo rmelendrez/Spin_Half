@@ -17,7 +17,7 @@ The module is written in the file product_state_generator.jl. You can use state_
 include("product_state_generator.jl")
 using .Prod_State_Gen_Mod
 
-Must define sites, spin, initial_prod_states
+Must define the the following variables \bf{sites, spin, initial_prod_states}}
 
 then call the function
 
