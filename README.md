@@ -37,7 +37,10 @@ initial_prod_states = [[1,0],[1,0]]
 
 output:
 
-$$| \psi \rangle = \begin{bmatrix}1\\ 0\\ 0\\ 0 \end{bmatrix} ^{\dagger}$$
+$$| \psi \rangle = \begin{bmatrix}1\\ 
+0\\ 
+0\\ 
+0 \end{bmatrix}$$
 
 ## The getspin(b,sites-1) function
 
